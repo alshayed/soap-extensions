@@ -1,0 +1,23 @@
+{
+  "name": "bspeterson/soap-extensions",
+  "description": "PHP SOAP Extensions",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brandon Peterson",
+      "email": "brandon@thebandit.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BSP\\SoapExtensions\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
